@@ -1,0 +1,212 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+.whatsappbtn{
+    border: 1px solid #27AE60;
+    color: #27AE60;
+    padding: 10px 18px;
+
+}
+.whatsappbtn:hover{
+    background-color: #27AE60;
+    color: #27AE60;
+    
+}
+
+.whatsappbtn i{
+    color: #27AE60;
+}
+.call{
+    padding: 10px 18px;
+    color: white;
+    background-image: linear-gradient(to right, #0ACEFE, #2699F8);
+}
+/* .btn-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} */
+.bannerContent h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.bannerContent h1 span{
+    color: #0ACEFE;
+    background: url("../images/border.png") no-repeat bottom;
+}
+.bannerContent p {
+    font-size: 22px;
+}
+.bannerContent ul{
+    list-style: none;
+  
+}
+.bannerContent ul li{
+    font-size: 22px;
+}
+.bannerContent ul li i{
+    color: #0ACEFE;
+}
+.bannerContentBtn button{
+    width: 50%;
+    padding: 10px 0px;
+
+}
+.demoBtn{
+    background: linear-gradient(to left, #0ACEFE, #2699F8);
+    color: white;
+    border: none;
+   
+}
+.bookBtn{
+    background: linear-gradient(to right, #0ACEFE, #2699F8);
+    color: white;
+    border: none;
+    padding-top: 
+    16px 
+    48px 
+    16px 48px;
+    gap: 
+    8px;
+}
+.downloadBtn{
+    border: 1px solid #778488;
+}
+.bannerForm{
+    padding: 40px;
+    border-radius: 10px;
+}
+.bannerForm h3{
+    font-size: 18px;
+    font-weight: 700;}
+.bannerForm  button{
+    width: 100%;
+    background: linear-gradient(to left, #0ACEFE, #2699F8);
+    color: white;
+    padding: 10px 0px;
+    border: none;
+    }
+.counterSection h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #0ACEFE ;
+}
+.highlights-section{
+    background: #F7FAFF;
+}
+.highlights-section h2{
+    color: #0A2134;
+    font-size: 36px;
+    font-weight: 700;
+}
+.highlights-section p{
+    font-size: 18px;
+}
+.highlightItems h4{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.highlightItems p{
+    font-size: 15px;
+
+}
+.stdRewiew h1{
+    font-size: 44px;
+    font-weight: 700;
+}
+.box{
+    border: 1px solid #E4E4E4;
+    padding: 20px;
+    border-radius: 10px;
+}
+.icon-box{
+   border: 2px solid #a7a3a3;
+    width: 40px;
+    Height:40px;
+    border-radius: 10px;
+    background: #F7FAFF;
+    justify-content: center;
+}
+.icon-box i{
+    font-size: 15px;
+    padding: 10px;
+    color: #2699FB;
+}
+
+.box p{
+    padding: none;
+    font-size: 15px;
+    color: #778488;
+}
+.top-img{
+    
+    position: relative;
+    z-index: -1;
+    left: 135px;
+    bottom: 230px;
+}
+.bottom-img{
+    position: relative;
+    z-index: -1;
+    left: 400px;
+    bottom: 150px;
+}  
+.cert h2{
+    font-weight: 700;
+}
+.icon-box-cert{
+    border: 2px solid #a7a3a3;
+     width: 50px;
+     height:50px;
+     border-radius: 10px;
+     background: #F7FAFF;
+     justify-content: center;
+     margin-top: 5px;
+ }
+ .icon-box-cert i{
+     font-size: 24px;
+     padding: 10px;
+     color: #2699FB;
+ }
+ .certification{
+    background-color: #7889a733;
+ }
+ .page-item{
+    border: #e6e6e600 1px solid;
+    color: black;
+ }
+ .page-item {
+    border: #e6e6e600 1px solid;
+    color: black;
+}
+.currculumn-content{
+    border: #0a21344a 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+.currculumn-content ul {
+    list-style: none;
+}
+
+.currculumn-content ul li {
+    font-size: clamp(16px, 2.5vw, 22px); 
+    word-break: break-word; 
+}
+
+.currculumn-content ul li i {
+    color: #0ACEFE;
+}
+.img-box{
+    font-size: 15px;
+    padding: 10px;
+}
+.cta{
+    background: linear-gradient(to left, #0ACEFE, #2699F8);
+    height: 300px;
+}
+footer{
+    background-color: #0A2540;
+    color: white;
+}

@@ -1,0 +1,142 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    .btn-outer{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        left: 0px;
+        justify-content: center !important;
+        background-color: white;
+       
+        padding: 5px 0px;
+    }
+    .whatsappbtn, .call{
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    .bannerContent h1{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 35px;
+    }
+    .bannerContent br{
+       display: none;
+    }
+    .bannerContent ul li p{
+        font-size: 16px;
+    }
+    .bannerContentBtn{
+        flex-direction: column;
+    }
+    .bannerContentBtn button{
+      width: 100%;
+    }
+    .bannerForm{
+        padding: 20px;
+        margin: 20px;
+    }
+    .highlights-section h2{
+        font-size: 28px;
+    }
+    .stdRewiew h1{
+        font-size: 28px;
+    }
+    .cert{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cert p{
+        font-size: 16px;
+        text-align: center;
+    }
+.top-img{
+    
+    position: relative;
+    z-index: -1;
+    left: 0px;
+    bottom: 0px;
+    top: 140px;
+}
+.bottom-img{
+    position: relative;
+    z-index: -1;
+    left: 200px;
+   
+    
+}  
+.cert-image{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+    .currculumn-content .row {
+        flex-direction: column;
+    }
+    
+    .page-link {
+        padding: 0.25rem 0.5rem; /* Smaller padding on mobile */
+        font-size: 0.9rem;
+    }
+    img, video, iframe {
+        max-width: 100%;
+        height: auto;
+      }
+
+}
+
+/* Need to overview this media query again  */
+
+/* @media (min-width: 576px) and (max-width: 767px) {
+    .btn-outer{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        left: 0px;
+        justify-content: center !important;
+        background-color: white;
+        padding: 5px 0px;
+    }
+    .whatsappbtn, .call{
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    .bannerContent h1{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 35px;
+    }
+    .bannerContent br{
+       display: none;
+    }
+    .bannerContent ul li p{
+        font-size: 16px;
+    }
+    .bannerContentBtn{
+        flex-direction: column;
+    }
+    .bannerContentBtn button{
+      width: 100%;
+    }
+    .bannerForm{
+        padding: 20px;
+        margin: 20px;
+    }
+    .highlights-section h2{
+        font-size: 28px;
+    }
+    .stdRewiew h1{
+        font-size: 28px;
+    }} */
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+    }
+}

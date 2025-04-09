@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ws CubeTech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    
+<!-- Enquiry Modal -->
+<div class="modal fade" id="enModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Enquire Now</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="
+            " class="bannerForm p-3 ">
+        <h3>Book Your Free Class Now!</h3>
+    <p>2 days of free demo classes without
+        paying in advance!</p>
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" id="" placeholder="Enter your name">
+</div>
+<div class="mb-3">
+    <label class="form-label">Email</label>
+    <input type="email" class="form-control" id="" placeholder="Enter your email">
+</div>
+
+
+<div class=" mb-3">
+<label class="form-label">Phone</label>
+<div class="input-group">
+<span class="input-group-text" id="basic-addon1">+92</span>
+<input type="text" class="form-control" placeholder="Phone number" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+</div>
+<div class="mb-3">
+<button>Register Now</button>
+</div>
+    </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="bookDemo">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Book Demo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         
+        </div>
+        <div class="modal-body">
+            <form action="
+            " class="bannerForm p-3 ">
+        <h3>Book Your Free Class Now!</h3>
+    <p>2 days of free demo classes without
+        paying in advance!</p>
+   
+<div class="mb-3">
+    <label class="form-label">Email</label>
+    <input type="email" class="form-control" id="" placeholder="Enter your email">
+</div>
+
+
+<div class=" mb-3">
+<label class="form-label">Phone</label>
+<div class="input-group">
+<span class="input-group-text" id="basic-addon1">+92</span>
+<input type="text" class="form-control" placeholder="Phone number" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+</div>
+<div class="mb-3">
+<button>Register Now</button>
+</div>
+    </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!-- off canvas -->
+  <!-- <header class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg">
+                    <a href="home.html" class=" navbar-brand">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu"> <span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse justify-content-end" >
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Course</a>
+                            </li>
+                        </ul>
+            
+                      </div>
+                </nav>
+               
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                        <img src="images/logo.svg" alt="">
+                      </h5>
+                      
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Course</a>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+  </header> -->
+    <header class="container-fluid py-2 shadow-lg position-sticky top-0 bg-white">
+        <div class="container">
+            <div class="row align-items-center j">
+                <figure class="col-lg-6 mb-0 pb-0 text0lg-start text-center">
+                    <img src="images/logo.svg" alt="Ws CubeTech Logo" >
+                </figure>
+                <div class="col-lg-6">
+                    <div class="btn-outer d-flex justify-content-end gap-3">
+                   <button class="btn whatsappbtn"><i class="fa-brands fa-whatsapp"></i> Chat with us</button>
+                   <button class="btn call"><i class="fa-solid fa-phone"></i> Call us</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <div class="bannerContent">
+                        <h1>Career Opportunities <br> in <span>Digital Marketing</span></h1>
+                        <p>Digital marketing course so good,you only pay-after-placement</p>
+                        <ul class="m-0 p-0">
+                            <li class="mb-3"><i class="fa-solid fa-circle-check"></i> Specialization: Performance Marketing</li>
+                            <li class="mb-3"><i class="fa-solid fa-circle-check"></i> Min salary of Rs 4.5 LPA</li>
+                            <li class="mb-3"><i class="fa-solid fa-circle-check"></i> 50 seats only</li>
+                        </ul>
+                        <div class="bannerContentBtn d-flex gap-3">
+                            <button data-bs-toggle="modal" data-bs-target="#bookDemo" class=" btn demoBtn">Book 2 Days Demo</button>
+                            <button data-bs-toggle="modal" data-bs-target="#enModal" class=" btn downloadBtn"><i class="fa-solid fa-download"></i> Download Curriculum</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <form action="
+                    " class="bannerForm shadow-lg">
+                <h3>Book Your Free Class Now!</h3>
+            <p>2 days of free demo classes without
+                paying in advance!</p>
+            <div class="mb-3">
+                <label for="" class="form-label">Name</label>
+                <input type="text" class="form-control" id="" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" id="" placeholder="Enter your email">
+    </div>
+   
+
+    <div class=" mb-3">
+        <label class="form-label">Phone</label>
+        <div class="input-group">
+        <span class="input-group-text" id="basic-addon1">+92</span>
+        <input type="text" class="form-control" placeholder="Phone number" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+      </div>
+      <div class="mb-3">
+       <button>Register Now</button>
+      </div>
+            </form>
+                </div>
+            </div>
+        </div>
+        <div class="container shadow-lg counterSection mt-5 mb-5">
+            
+                <div class="row p-4 row-cols-lg-5 row-cols-md-2 row-cols-1 g-4 text-center">
+                    <div class="col">
+                        <h2>1000+</h2>
+                        <p>Students Trained</p>
+                    </div>
+                    <div class="col">
+                        <h2>₹4.5 LPA</h2>
+                        <p>Students Trained</p>
+                    </div>
+                    <div class="col">
+                        <h2>320+</h2>
+                        <p>Recruiting Partners</p>
+                    </div>
+                    <div class="col">
+                        <h2>10:00 am</h2>
+                        <p>Program Timings</p>
+                    </div>
+                    <div class="col">
+                        <h2>11th May</h2>
+                        <p>Next Batch Starts </p>
+                    </div>
+                </div>
+            
+
+        </div>
+    </section>
+   <section class="container-fluid highlights-section py-5">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-12">
+                <h2>Key Highlights of the Course</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+            </div>
+        </div>
+        <div class="row gy-3 flex-wrap">
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItems">
+                    <img src="images/Group 4488.png" alt="">
+                    <div>
+                        <h4>Assignments & <br> Modules tests</h4>
+                        <p class="mb-0 pb-0">Test your knowledge</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItems">
+                    <img src="images/Frame 353 (2).png" alt="">
+                    <div>
+                        <h4>Industry-recognized Certification</h4>
+                        <p class="mb-0 pb-0">Stand out to your professional</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItems">
+                    <img src="images/Frame 354 (2).png" alt="">
+                    <div>
+                        <h4>Live classes & <br> recorded lectures</h4>
+                        <p class="mb-0 pb-0">Test your knowledge</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItems">
+                    <img src="images/Frame 352.png" alt="">
+                    <div>
+                        <h4>Downloadable Content</h4>
+                        <p class="mb-0 pb-0">With lifetime access</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItems">
+                    <img src="images/Frame 353 (1).png" alt="">
+                    <div>
+                        <h4>6 Industry level <br> Projects</h4>
+                        <p class="mb-0 pb-0">Get practical skills</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-12">
+                <div class="bg-white p-3 d-flex align-items-start gap-3 highlightItems">
+                    <img src="images/Frame 354 (1).png" alt="">
+                    <div>
+                        <h4>4 Live Doubt clearing Session</h4>
+                        <p class="mb-0 pb-0">Gain a clear understanding</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-sm-6 col-12 d-flex justify-content-center">
+            <div class=" p-3  gap-3 ">
+                <button class="btn  bookBtn">Book free Class</button>
+            </div></div>
+        </div>
+    </div>
+   </section>
+   <section class="container-fluid py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 py-5 d-flex justify-content-center align-items-center flex-column">
+                <h2>Top career options in Digital Marketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare pharetra.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 py-3">
+                <div class="box">
+                    <div class="top py-2">
+                        <div class="icon-box d-flex justify-content-center align-items-center flex-column">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                           </div>
+                    </div>
+                    <h5 class="my-2">Content Marketer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 py-3">
+                <div class="box">
+                    <div class="top py-2">
+                        <div class="icon-box d-flex justify-content-center align-items-center flex-column">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                           </div>
+                    </div>
+                    <h5 class="my-2">Content Marketer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 py-3">
+                <div class="box">
+                    <div class="top py-2">
+                        <div class="icon-box d-flex justify-content-center align-items-center flex-column">
+                            <i class="fa-solid fa-user-group"></i>
+                           </div>
+                    </div>
+                    <h5 class="my-2">Content Marketer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 py-3">
+                <div class="box">
+                    <div class="top py-2">
+                        <div class="icon-box d-flex justify-content-center align-items-center flex-column">
+                            <i class="fa-solid fa-chart-simple"></i>
+                           </div>
+                    </div>
+                    <h5 class="my-2">Content Marketer</h5>
+                    <p >Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- Certification -->
+    <!-- image position is not responsive -->
+   <section class="container-fluid certification py-5"> 
+    <div class="container">
+        <div class="row d-flex flex-row">
+            <div class="col-lg-6">
+             <div class="row d-flex flex-column ">
+                <div class="col-lg-10 mb-4 cert">
+                    <h2>Get Certified</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+                <div class="col-lg-10 box py-3 pb-0 mb-3 d-flex justify-content-start align-items-center gap-3">
+                    <div class="icon-box-cert "><i class="fa-regular fa-star"></i></div>
+                    <div>
+                    <h4>Official and verified</h4>
+                    <p >Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+
+                </div>                </div>
+                <div class="col-lg-10 box py-3 pb-0 mb-3 d-flex justify-content-start align-items-center gap-3">
+                    <div class="icon-box-cert "><i class="fa-regular fa-paper-plane"></i></div>
+                    <div>
+                    <h4>Easily shareable</h4>
+                    <p >Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+
+                </div>                </div>
+                <div class="col-lg-10 box py-3 pb-0 mb-3 d-flex justify-content-start align-items-center gap-3">
+                    <div class="icon-box-cert "><i class="fa-regular fa-star"></i></div>
+                    <div>
+                    <h4>Career shifting</h4>
+                    <p >Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+
+                </div>                </div>
+                
+               
+               
+             </div>
+            </div>
+            <div class="col-lg-6 m-0 p-0">
+                <div class="images"> <img src="images/top.png" class="top-img  m-0 p-0 ">
+                    <img src="images/image 134 (2).png" class="cert-image"  alt=""></div>
+                    <img src="images/bottom.png" class="bottom-img  m-0 p-0" alt="">
+               
+            </div>
+        </div>
+    </div>
+   </section><section class="container-fluid">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center flex-column py-5 cert">
+            <h1>Curriculum of Our Digital Marketing</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+        </div>
+    </div>
+    <ul class="d-flex flex-row list-style-none justify-content-center mb-0 p-0 gap-3 flex-wrap">
+        <span aria-hidden="true">&laquo;</span>
+        <li class="page-item list-group-item"><a class="page-link" href="#">Introduction</a></li>
+        <li class="page-item list-group-item"><a class="page-link" href="#">Case Studies</a></li>
+        <li class="page-item list-group-item"><a class="page-link" href="#">Case Studies</a></li>
+        <li class="page-item list-group-item"><a class="page-link" href="#">Google AdSense</a></li>
+        <li class="page-item list-group-item"><a class="page-link" href="#">SEO Mastery</a></li>
+        <li class="page-item list-group-item"><a class="page-link" href="#">Google Analytics</a></li>
+        <li class="page-item list-group-item"><a class="page-link" href="#">Blogging</a></li>
+        <span aria-hidden="true">&raquo;</span>
+    </ul>
+    
+    <div class="container currculumn-content py-lg-5 py-sm-4 py-3 my-3">
+        <div class="row g-3 g-md-4 px-lg-5 px-md-3 px-2">
+            <div class="col-lg-6 col-md-6 col-12">
+                <ul class="m-0 p-0">
+                    <li class="mb-3 list-group-item"><i class="px-2 fa-solid fa-circle-check"></i> What is Digital Marketing?</li>
+                    <li class="mb-3 list-group-item"><i class="px-2 fa-solid fa-circle-check"></i> Requirement of Digital Marketing</li>
+                    <li class="mb-3 list-group-item"><i class="px-2 fa-solid fa-circle-check"></i> Digital Marketing for Working Professionals</li>
+                    <li class="mb-3 list-group-item"><i class="px-2 fa-solid fa-circle-check"></i> Job opportunities in Digital Marketing</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <ul class="m-0 p-0">
+                    <li class="mb-3 list-group-item"><i class="px-2 fa-solid fa-circle-check"></i> Scope of Digital Marketing</li>
+                    <li class="mb-3 list-group-item"><i class="px-2 fa-solid fa-circle-check"></i>Latest Trends in Digital Marketing</li>
+                    <li class="mb-3 list-group-item"><i class="px-2 fa-solid fa-circle-check"></i>Digital Marketing for Small, Medium</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  here -->
+<section class="container-fluid py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 py-5 d-flex justify-content-center align-items-center flex-column">
+                <h2>Why Learn Digital Marketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare pharetra.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 py-3">
+                <div class="box">
+                    <div class="top py-2">
+                        <div class="img-box d-flex justify-content-center align-items-start flex-column">
+                           <img src="images/Frame.png" alt="image">
+                           </div>
+                    </div>
+                    <h5 class="my-2">Content Marketer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 py-3">
+                <div class="box">
+                    <div class="top py-2">
+                        <div class="img-box d-flex justify-content-center align-items-start flex-column">
+                           <img src="images/Frame (1).png" alt="image">
+                           </div>
+                    </div>
+                    <h5 class="my-2">Content Marketer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 py-3">
+                <div class="box">
+                    <div class="top py-2">
+                        <div class="img-box d-flex justify-content-center align-items-start flex-column">
+                           <img src="images/Frame (2).png" alt="image">
+                           </div>
+                    </div>
+                    <h5 class="my-2">Content Marketer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 py-3">
+                <div class="box">
+                    <div class="top py-2">
+                        <div class="img-box d-flex justify-content-center align-items-start flex-column">
+                           <img src="images/Frame (3).png" alt="image">
+                           </div>
+                    </div>
+                    <h5 class="my-2">Content Marketer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 py-3">
+                <div class="box">
+                    <div class="top py-2">
+                        <div class="img-box d-flex justify-content-center align-items-start flex-column">
+                           <img src="images/Frame (4).png" alt="image">
+                           </div>
+                    </div>
+                    <h5 class="my-2">Content Marketer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 py-3">
+                <div class="box">
+                    <div class="top py-2">
+                        <div class="img-box d-flex justify-content-center align-items-start flex-column">
+                           <img src="images/Frame (5).png" alt="image">
+                           </div>
+                    </div>
+                    <h5 class="my-2">Content Marketer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+    <section class="review">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center flex-column">
+                <div class="col-lg-12">
+                    <h1>What Our Students Are Saying!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare pharetra.</p>
+                </div>
+            </div>
+            <div class="row mt-3 d-flex flex-direction-row justify-content-center align-items-center flex-wrap">
+                <div class="col-lg-6 rev-box">
+                    <div class="profile d-flex flex-direction-row px-3">
+                        <div class="profile-icon">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                        <div class="profile-info px-2">
+                            <h4>John Doe</h4>
+                        <span>September 1, 2023</span>
+                        </div>
+                        
+                    </div>
+                    <div class="rev px-3 py-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et quam expedita beatae eum accusamus veritatis qui aperiam ea dolorum ex dolorem fugiat sequi rerum, 
+                    </div>
+                </div>
+                <div class="col-lg-6 rev-box">
+                    <div class="profile d-flex flex-direction-row px-3">
+                        <div class="profile-icon">
+                            <img src="images/Frame.png" alt="">
+                        </div>
+                        <div class="profile-info px-2">
+                            <h4>John Doe</h4>
+                        <span>September 1, 2023</span>
+                        </div>
+                        
+                    </div>
+                    <div class="rev px-3 py-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et quam expedita beatae eum accusamus veritatis qui aperiam ea dolorum ex dolorem fugiat sequi rerum,
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to action -->
+    <div class="container my-5 ">
+        <section class="cta py-5">
+           <div class="content d-flex justify-content-center align-items-center flex-column">
+            <h3>
+                Are You Ready To Start Your Course?
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Arcu nisi diam eget id turpis donec et morbi.</p>
+            <button class="btn btn-light  btn-lg">
+                Book Free Class
+            </button>
+           </div>
+        </section>
+    </div>
+    <section class="faq">
+        <div class="heading d-flex flex-column justify-content-center align-items-center">
+            <h1> Digital Marketing Course FAQs</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Arcu nisi diam eget id turpis donec et morbi.</p>
+        
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+              </div>
+             
+        </div>
+        <div class=" p-3  gap-3  ">
+            <button class="btn  bookBtn">Book free Class</button>
+        </div>
+        </div>
+    </section>
+    <section class="partners d-flex justify-content-center align-items-center flex-column py-5">
+        <h3>Top Companies Hiring Digital Marketing in India</h3>
+        <img src="images/image 144.png" alt="">
+    </section>
+    
+    <footer class="container-fluid py-5 d-flex justify-content-center align-items-center flex-column">
+        <img src="images/logo_black 2.png" alt="">
+        <div class="container">
+           
+            <p>Lorem ipsum dolor sit amet consectetur. Mattis id rhoncus non fermentum quam duis faucibus blandit. Non suscipit quis sed et mus nisl lacinia massa</p>
+            <hr>
+        </div>
+     <p>All rights reserved by WsCube Tech</p>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- <section class="container-fluid">
+    <div class="container stdRewiew d-flex justify-content-center align-items-center flex-column py-4">
+        <h1>What Our Students Are Saying!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur Imperdiet tellus ut ornare pharetra.</p>
+        <div class="cards d-flex justify-content-center align-items-center flex-row gap-4 p-3">
+            <div class="card">
+                <div class="card-body">
+                   <div class="profile">
+                    <img src="images/Frame 353.png" alt="">
+                    <h4>John Doe</h4>
+                    <span>September 1, 2023</span>
+                   </div>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4>Jane Doe</h4>
+                    <span>September 1, 2023</span>
+                    <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   </section> -->
+</html>
